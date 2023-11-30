@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password Generator</title>
+  <script src="https://kit.fontawesome.com/0adcceca8a.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="index.css">
+
+  <script src="index.js" defer></script>
+</head>
+<body>
+  <div class="container">
+
+    <div class="resultBox">
+      <input type="text" class="result-box" placeholder="T@$KrxS&xmZY98" id="myInput" >
+
+      <div class="copy-icon">
+      <i class="far fa-copy fa-lg" id="myCopy" ></i>
+    </div>
+   </div>
+<div class="settings">
+  <div class="upper-settings">
+    <input type="checkbox" id="Uppercase" checked>
+    <span>
+    <label for="upperCase">Uppercase</label>
+  </span></div>
+
+   <div class="settings-1">
+    <input type="checkbox" id="Lowercase" checked>
+    <span>
+    <label for="lowerCase">Lowercase</label>
+  </span></div>
+
+   <div class="settings-2">
+    <input type="checkbox" id="Numbers">
+    <span>
+    <label for="Numbers">Numbers</label>
+  </span></div>
+
+   <div class="settings-3">
+    <input type="checkbox" id="Symbols" checked>
+    <span>
+    <label for="symbols">Symbols</label></span>
+  </div>
+
+  <div class="settings-4">
+    <label for="Password">Password Length</label>
+    <span id="sliderValue"></span>
+</div>
+
+<div class="settings-5">
+<input  class="range"  type="range" min="1" max="100" value="4" id="inputSlider">
+</div>
+
+
+<button class="btn">Generate Password</button>
+
+</div>
+  </div>
+</body>
+</html>

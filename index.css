@@ -1,0 +1,86 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7rem;
+   background-color: #7bdaf3;
+}
+.container{
+  width: 27vw;
+  height: 55vh;
+  padding: 2rem;
+  border-radius: .5rem;
+  background-color: #e6f8f5;
+  box-shadow: 6px 7px 6px 1px rgba(98,197,223,0.75);
+-webkit-box-shadow: 6px 7px 6px 1px rgba(98,197,223,0.75);
+-moz-box-shadow: 6px 7px 6px 1px rgba(98,197,223,0.75);
+position: relative;
+}
+.result-box{
+  width: 95%;
+  height: 5vh;
+  margin-top: 10px;
+  border-radius: 1rem;
+  outline: none;
+  border: none;
+  text-indent: 2rem;
+  
+}
+.copy-icon{
+  position: absolute;
+  right: 0;
+  top: 14%;
+  left: 80%;
+  color: #c5c5c5;
+  cursor: pointer;
+}
+
+input[type=checkbox]{
+  accent-color: #7bdaf3; 
+  
+}
+::placeholder{
+padding-left: 1rem;
+}
+
+.settings{
+ height: 85%;
+ margin-top: 1rem;
+ 
+}
+.upper-settings{
+  width: 60%;
+  margin-left: 3rem;
+}
+.settings-1, .settings-2, .settings-3, .settings-4, .settings-5{
+  margin-left: 3rem;
+  margin-top: 1rem;
+}
+.range{
+  border: 1px solid black;
+  width: 80%;
+  height: 2px;
+  accent-color: #7bdaf3;
+}
+span{
+  margin-left: 1rem;
+  margin-top: .7rem;
+}
+.btn{
+ border: 1px solid black;
+ margin-left: 3rem;
+ margin-top: 1.5rem;
+ width: 70%;
+ height: 5vh;
+ background-color: #16a085;
+ color: #fff;
+ border-radius: 1rem;
+ border: none;
+ font-size: 700;
+ cursor: pointer;
+}
