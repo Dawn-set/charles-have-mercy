@@ -13,7 +13,7 @@ body {
 }
 .container {
   width: 24rem;
-  height: 24rem;
+  /* height: 24rem; */
   padding: 2rem;
   border-radius: 0.5rem;
   background-color: #e6f8f5;
@@ -24,7 +24,7 @@ body {
 }
 .result-box {
   width: 95%;
-  height: 5vh;
+  height: 2.2rem;
   margin-top: 10px;
   border-radius: 1rem;
   outline: none;
@@ -80,7 +80,7 @@ span {
   margin-left: 3rem;
   margin-top: 1.5rem;
   width: 70%;
-  height: 5vh;
+  height: 2.2rem;
   background-color: #16a085;
   color: #fff;
   border-radius: 1rem;
@@ -93,4 +93,41 @@ span {
   background-color: inherit;
   transition-duration: 500ms;
   color: #16a085;
+}
+@media (max-width: 387px) {
+  .container{
+    width: 20rem;
+
+  }
+}
+@media (max-width: 327px) {
+  .container{
+    width: 16rem;
+    font-size: ;
+    ::placeholder {
+      color: transparent;
+    }
+    .upper-settings {
+      /* width: 60%; */
+      margin-left: 2rem;
+      font-size: .9rem;
+    }
+    .settings-1,
+    .settings-2,
+    .settings-3,
+    .settings-5 {
+      margin-left: 2rem;
+      margin-top: 1rem;
+      font-size: .9rem;
+    }
+    .settings-4{
+      margin-left: 2rem;
+      font-size: .9rem;
+      margin-top: 1rem;
+    }
+    .btn{
+      font-size: .8rem;
+     margin-left: 2rem;
+    }
+  }
 }
