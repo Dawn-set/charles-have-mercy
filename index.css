@@ -94,9 +94,9 @@ span {
   transition-duration: 500ms;
   color: #16a085;
 }
-@media (max-width: 387px) {
+@media (max-width: 390px) {
   .container{
-    width: 20rem;
+    width: 19rem;
 
   }
 }
